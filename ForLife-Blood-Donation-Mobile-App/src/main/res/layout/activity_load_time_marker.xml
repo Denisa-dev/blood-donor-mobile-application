@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".LoadTimeMarkerActivity">
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="@dimen/fab_margin"
+        android:fontFamily="@font/alegreya_sc"
+        android:gravity="center"
+        android:text="Centru + Judetul"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:textStyle="bold"></TextView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardDate"
+        android:layout_width="match_parent"
+        app:cardBackgroundColor="@color/colorAccent"
+        android:layout_height="60dp">
+
+        <TextView
+            android:id="@+id/tvDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_slot"
+        android:layout_width="match_parent"
+        android:layout_height="310dp"
+        android:layout_marginTop="4dp">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/green">
+    </View>
+
+    <Button
+        android:id="@+id/btn_confirmBooking"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="Previzualizare"
+        android:layout_gravity="center"
+        android:background="@drawable/button_green_off"
+        android:textColor="@color/green"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp">
+
+    </Button>
+
+    <Button
+        android:id="@+id/btn_cancel"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="Renunță"
+        android:layout_gravity="center"
+        android:background="@drawable/border_button_off"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp">
+
+    </Button>
+</LinearLayout>

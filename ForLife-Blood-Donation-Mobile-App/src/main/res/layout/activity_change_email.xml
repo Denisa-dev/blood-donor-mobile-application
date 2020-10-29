@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".ChangeEmailActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_back"
+        android:layout_width="match_parent"
+        app:titleTextColor="@color/white"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_marginBottom="30dp"
+        android:background="@color/colorAccent"
+        app:layout_constraintBottom_toTopOf="@+id/textLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navigationIcon="@drawable/ic_arrow_back" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp"
+        android:text="Email curent"/>
+
+    <TextView
+        android:id="@+id/actualEmail"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:textColor="@color/dark"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="@dimen/fab_margin"
+        android:text="Introduceți noul email">
+
+    </TextView>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textLayout2"
+        android:layout_width="300dp"
+        android:layout_height="56dp"
+        android:layout_marginLeft="10dp"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="518dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.324"
+        app:layout_constraintStart_toStartOf="parent"
+        android:singleLine="true"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.336">>
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:drawableStart="@drawable/ic_email_black_24dp"
+            android:ems="10"
+            android:focusableInTouchMode="true"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/colorAccent"
+            android:textColorHighlight="@color/colorAccent" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/save"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="@dimen/fab_margin"
+        android:gravity="center"
+        android:text="Confirmă"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

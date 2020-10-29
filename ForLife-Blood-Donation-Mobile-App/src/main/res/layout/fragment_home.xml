@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/transition_container"
+    android:background="@color/white"
+    tools:context=".Fragment.HomeFragment">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@color/colorPrimary">
+
+        <com.tomer.fadingtextview.FadingTextView
+            android:id = "@+id/fadingText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:texts="@array/transition"
+            android:layout_marginTop="@dimen/fab_margin"
+            android:textSize="20sp"
+            android:fontFamily="@font/amethysta"
+            android:textColor="@color/white"
+            android:gravity="center"
+            app:timeout="3000"/>
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="70dp"
+        android:id="@+id/home_list"/>
+
+</RelativeLayout>

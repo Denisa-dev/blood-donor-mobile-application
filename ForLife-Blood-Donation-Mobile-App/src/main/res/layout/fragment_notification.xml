@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/fragment_note"
+    tools:context=".Fragment.NotificationFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="35dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="@dimen/fab_margin"
+            android:layout_marginTop="@dimen/fab_margin"
+            android:textSize="20sp"
+            android:text="Filtre notificări"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/colorAccent">
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/my_judet"
+                android:layout_width="90dp"
+                android:layout_height="45dp"
+                android:text="Județul meu"
+                android:layout_marginLeft="@dimen/fab_margin"
+                android:background="@drawable/border_button_off"
+                android:textColor="@color/dark">
+
+            </Button>
+
+            <Button
+                android:id="@+id/all_judet"
+                android:layout_width="100dp"
+                android:layout_height="45dp"
+                android:text="Toate județele"
+                android:layout_marginLeft="@dimen/fab_margin"
+                android:background="@drawable/border_button_off"
+                android:textColor="@color/dark">
+
+            </Button>
+        </LinearLayout>
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_notification"
+        android:layout_width="match_parent"
+        android:padding="4dp"
+        android:background="@color/aqua"
+        android:scrollbars="vertical"
+        android:layout_height="match_parent">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>

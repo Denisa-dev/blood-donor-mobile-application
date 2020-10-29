@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".StatisticActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_back"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:titleTextColor="@color/white"
+        android:background="@color/colorAccent"
+        app:layout_constraintBottom_toTopOf="@+id/textLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navigationIcon="@drawable/ic_arrow_back">
+
+        <TextView
+            android:id="@+id/tvsetBar"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="14dp"
+        android:textSize="16sp"
+        android:text="Alegeți tipul de statistică apăsând pe imagine." />
+
+    <ImageView
+        android:id="@+id/barchart"
+        android:layout_width="200dp"
+        android:layout_gravity="center"
+        android:layout_height="200dp"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@drawable/barhor" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="35dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="Număr total de donatori pe sexe în țară 2020" />
+
+    <ImageView
+        android:id="@+id/piechart"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/piechart" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="35dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="Număr total de donatori pe județe 2020" />
+</LinearLayout>

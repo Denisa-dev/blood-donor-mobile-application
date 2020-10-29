@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.firestoredatabase">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".Model.NotificationChannel"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_logo_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_logo_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".BonusActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".ConfirmSpecialCasesActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".SpecialCasesActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ContactmeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CalendarActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StatisticUnuActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StatisticZeroActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StatisticActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HappyCasesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DonationBenefitActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AboutDonationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SendEmailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LoadNotificationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PopupNotificationActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.CustomTheme2" />
+        <activity
+            android:name=".MarkerBookingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NotificationBookingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LoadTimeMarkerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DeleteAccountActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChangeEmailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SettingsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PopupIstoricActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".IstoricActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EditBookingPreviewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BookingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EditBookingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NoBookingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ResetPasswordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".IntroActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ActualBookActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name=".CustomMapActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ProfileActivities.AccountActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".SignInActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MapInitActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PermissionLocation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MapsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FinalMapActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CentruMapActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ReservationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

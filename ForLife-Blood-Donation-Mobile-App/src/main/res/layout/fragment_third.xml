@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.ThirdFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="258dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="76dp"
+            android:layout_marginTop="50dp"
+            android:text="Dacă nu ați donat niciodată, lăsați căsuța liberă."/>
+
+        <EditText
+            android:id="@+id/text_date"
+            android:layout_width="258dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="76dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="Data ultimei donări: zz_ll_aaaa" />
+
+        <Spinner
+            android:id="@+id/spinner_judet"
+            android:layout_width="155dp"
+            android:layout_height="47dp"
+            android:layout_marginStart="102dp"
+            android:layout_marginTop="20dp"
+            android:autofillHints="Judet"
+            android:layout_marginEnd="154dp"
+            android:layout_marginBottom="14dp" />
+
+
+        <TextView
+            android:layout_width="258dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="76dp"
+            android:layout_marginTop="15dp"
+            android:text="Ce grup de sange aveti?"/>
+
+        <Spinner
+            android:id="@+id/spinner_fragment"
+            android:layout_width="155dp"
+            android:layout_height="47dp"
+            android:layout_marginStart="102dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="154dp"
+            android:layout_marginBottom="14dp" />
+
+        <RadioGroup
+            android:id="@+id/radio_group"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radio_f"
+                android:text="F"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radio_m"
+                android:text="M"/>
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/third_button"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="10dp"
+            android:text="Next"></Button>
+
+    </LinearLayout>
+
+</FrameLayout>

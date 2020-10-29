@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PopupNotificationActivity">
+
+    <ImageView
+        android:id="@+id/close"
+        android:layout_width="30dp"
+        android:layout_gravity="right"
+        android:src="@drawable/ic_close"
+        android:layout_height="30dp">
+
+    </ImageView>
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="Centru" />
+
+    <TextView
+        android:id="@+id/centru"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="TextView" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/pale">
+    </View>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:textSize="18sp"
+        android:layout_height="wrap_content"
+        android:text="Titlu" />
+
+    <TextView
+        android:id="@+id/titlu"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="8dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="TextView" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/pale">
+    </View>
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:textSize="18sp"
+        android:layout_height="wrap_content"
+        android:text="Grupa Sânge" />
+
+    <TextView
+        android:id="@+id/grupa"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:layout_marginBottom="8dp"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="TextView" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/pale">
+    </View>
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp"
+        android:ellipsize="end"
+        android:scrollbars="vertical"
+        android:layout_height="wrap_content"
+        android:text="Descriere" />
+
+    <TextView
+        android:id="@+id/descriere"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="8dp"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:maxLines="4"
+        android:ellipsize="end"
+        android:textColor="@color/dark"
+        android:scrollbars="vertical"
+        android:text="TextView" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/pale">
+    </View>
+    <Button
+        android:id="@+id/dona"
+        android:layout_width="150dp"
+        android:layout_marginTop="@dimen/fab_margin"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/border_button_off"
+        android:layout_height="wrap_content"
+        android:text="Donează" />
+</LinearLayout>

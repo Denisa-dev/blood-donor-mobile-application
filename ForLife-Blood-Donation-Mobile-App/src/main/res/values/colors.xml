@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#70092D</color>
+    <color name="colorPrimaryDark">#E7E7E7</color>
+    <color name="colorAccent">#70092D</color>
+    <color name="dark">#0F041E</color>
+    <color name="dark2">#310F041E</color>
+    <color name="pale">#230F041E</color>
+    <color name="blue">#0B25FC</color>
+    <color name="yellow">#FDC500</color>
+    <color name="white">#FFFFFF</color>
+    <color name="pewter1">#4F4A45</color>
+    <color name="newsprint1">#99314B</color>
+    <color name="color">#C2556F</color>
+    <color name="steel2">#5A4E4D</color>
+    <color name="blush2">#E0A1A1</color>
+    <color name="peacock3">#004D47</color>
+    <color name="lichen3">#4B52958B</color>
+    <color name="stone4">#4B4345</color>
+    <color name="salmin4">#C1FFCACA</color>
+    <color name="deep5">#363237</color>
+    <color name="blush5">#D09683</color>
+    <color name="green6">#004445</color>
+    <color name="green">#00AD13</color>
+    <color name="aqua7">#A107575B</color>
+    <color name="aqua">#5EE6B3C3</color>
+    <color name="wave7">#F1F1F1</color>
+    <color name="galben">#ADFFE289</color>
+    <color name="grey">#CE808080</color>
+</resources>

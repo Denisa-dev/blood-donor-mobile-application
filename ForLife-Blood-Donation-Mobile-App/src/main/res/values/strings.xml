@@ -1,0 +1,495 @@
+<resources>
+    <string name="app_name">ForLife</string>
+    <!-- <string name="title_activity_maps">Map</string> -->
+    <string-array name="blood">
+        <item>0+</item>
+        <item>0-</item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>Nu știu</item>
+    </string-array>
+
+    <string-array name="sex">
+        <item>Feminin</item>
+        <item>Masculin</item>
+    </string-array>
+
+    <string-array name="judet">
+        <item>Alba</item>
+        <item>Arad</item>
+        <item>Argeș</item>
+        <item>Bacău</item>
+        <item>Bihor</item>
+        <item>Bistrița-Năsăud</item>
+        <item>Botoșani</item>
+        <item>Brașov</item>
+        <item>Brăila</item>
+        <item>București</item>
+        <item>Buzău</item>
+        <item>Caraș-Severin</item>
+        <item>Călărași</item>
+        <item>Cluj</item>
+        <item>Constanța</item>
+        <item>Covasna</item>
+        <item>Dâmbovița</item>
+        <item>Dolj</item>
+        <item>Galați</item>
+        <item>Giurgiu</item>
+        <item>Gorj</item>
+        <item>Harghita</item>
+        <item>Hunedoara</item>
+        <item>Ialomița</item>
+        <item>Iași</item>
+        <item>Maramureș</item>
+        <item>Mehedinți</item>
+        <item>Mureș</item>
+        <item>Neamț</item>
+        <item>Olt</item>
+        <item>Prahova</item>
+        <item>Satu Mare</item>
+        <item>Sălaj</item>
+        <item>Sibiu</item>
+        <item>Suceava</item>
+        <item>Teleorman</item>
+        <item>Timiș</item>
+        <item>Tulcea</item>
+        <item>Vaslui</item>
+        <item>Vâlcea</item>
+        <item>Vrancea</item>
+    </string-array>
+
+    <string-array name="addresses">
+        <item>B-dul Revoluţiei 1989 nr.23</item>
+        <item>Str. Mihăiţă Filipescu nr. 12-14</item>
+        <item>Str.Andrenyi Karoly nr. 2-4</item>
+        <item>Str. Mărăşeşti nr.22</item>
+        <item>Str. G. Coşbuc nr.20A</item>
+        <item>Str. M. Kogălniceanu nr.11</item>
+        <item>Str. N. Bălcescu nr.11A</item>
+        <item>Str. Marchian nr.91</item>
+        <item>Str. V. Babeş nr.21</item>
+        <item>Str. R. Câmpineanu nr.25</item>
+        <item>Str. G-ral Grigore Baştan nr.2</item>
+        <item>Str. Bărăganului nr.1</item>
+        <item>Str. N. Bălcescu nr.18</item>
+        <item>Str. N. Iorga nr.85</item>
+        <item>Str. Tabaci nr.1</item>
+        <item>Str. I.C.Brătianu nr.4</item>
+        <item>Str. 22 Decembrie, bl.D1, parter</item>
+        <item>Str. 22 Decembrie nr.1</item>
+        <item>Str. Carol I nr.16</item>
+        <item>Str. Cuza Vodă nr.50-52</item>
+        <item>Str. Regiment 11 Siret nr. 48A</item>
+        <item>Şos. Alexandriei nr.7-9</item>
+        <item>Str. N. Bălcescu nr.21</item>
+        <item>Aleea Avântului nr.1</item>
+        <item>Str. Louis Pasteur nr.30</item>
+        <item>Str. Traian nr.5</item>
+        <item>Str. N. Vodă nr.43</item>
+        <item>Str. Poenaru Bordea 12</item>
+        <item>Şos. Vestului nr.24A</item>
+        <item>Str. I.L. Caragiale nr.1</item>
+        <item>Str. G-ral Magheru nr.54</item>
+        <item>Str. Careului nr.26</item>
+        <item>Str. Banki Donath nr.15A</item>
+        <item>B-dul C.Coposu nr.2-4</item>
+        <item>Str. Ec. Theodoroiu nr.3</item>
+        <item>Str. Decebal nr.1</item>
+        <item>B-dul 1 Dec. 1918 nr.11</item>
+        <item>Str. 22 Decembrie nr.22bis</item>
+        <item>Str. Molter Karoly nr.2</item>
+        <item>Str. Martir Marius Ciopec nr.1</item>
+        <item>Str. Gloriei nr.22</item>
+        <item>Str. Simion Bărnuţiu nr.91</item>
+        <item>Str. C.Caracaş nr.2-8, sector 1</item>
+        <item>Calea Floreasca nr.8, sector 1</item>
+        <item>Sos.Fundeni nr 258, Sector 2</item>
+        <item>Str. Calea Plevnei nr.134, sector 1</item>
+        <item>Splaiul Independentei nr.16</item>
+    </string-array>
+
+    <string-array name="centres">
+        <item>CTS Alba</item>
+        <item>CTS Alexandria</item>
+        <item>CTS Arad</item>
+        <item>CTS Bacău</item>
+        <item>CTS Baia Mare</item>
+        <item>CTS Bârlad</item>
+        <item>CTS Bistriţa</item>
+        <item>CTS Botoşani</item>
+        <item>CTS Braşov</item>
+        <item>CTS Brăila</item>
+        <item>CTS Buzău</item>
+        <item>CTS Călăraşi</item>
+        <item>CTS Cluj</item>
+        <item>CTS Constanţa</item>
+        <item>CTS Craiova</item>
+        <item>CTS Târgovişte</item>
+        <item>CTS Deva</item>
+        <item>CTS Petroșani</item>
+        <item>CTS Dr.Tr. Severin</item>
+        <item>CTS Focşani</item>
+        <item>CTS Galaţi</item>
+        <item>CTS Giurgiu</item>
+        <item>CTS Iaşi</item>
+        <item>CTS Mc. Ciuc</item>
+        <item>CTS Oradea</item>
+        <item>CTS Piatra Neamţ</item>
+        <item>CTS Piteşti</item>
+        <item>CTS Câmpulung Muscel</item>
+        <item>CTS Ploieşti</item>
+        <item>CTS Reşiţa</item>
+        <item>CTS Rm. Vâlcea</item>
+        <item>CTS Satu Mare</item>
+        <item>CTS Sf. Gheorghe</item>
+        <item>CTS Sibiu</item>
+        <item>CTS Slatina</item>
+        <item>CTS Slobozia</item>
+        <item>CTS Suceava</item>
+        <item>CTS Tg. Jiu</item>
+        <item>CTS Tg. Mureş</item>
+        <item>CTS Timişoara</item>
+        <item>CTS Tulcea</item>
+        <item>CTS Zalău</item>
+        <item>CTSM Bucureşti</item>
+        <item>PRS Spitalul de Urgență Floreasca</item>
+        <item>PRS Institutul Clinic Fundeni</item>
+        <item>PRS Spitalul Militar</item>
+        <item>PRS Spitalul Universitar de Urgență</item>
+    </string-array>
+
+    <string-array name="telefon">
+        <item>0258 835184</item>
+        <item>0247 311998</item>
+        <item>0357 432914</item>
+        <item>0234 535769</item>
+        <item>0362 808018</item>
+        <item>0335 414488</item>
+        <item>0363 401315</item>
+        <item>0331 401627</item>
+        <item>0368 001123</item>
+        <item>0339 401784</item>
+        <item>0338 401493</item>
+        <item>0342 401026</item>
+        <item>0364 417641</item>
+        <item>0341 170931</item>
+        <item>0351 432059</item>
+        <item>0245 210913</item>
+        <item>0354 411030</item>
+        <item>0354 402619</item>
+        <item>0352 401613</item>
+        <item>0337 401392</item>
+        <item>0336 401906</item>
+        <item>0246 215048</item>
+        <item>0332 800749</item>
+        <item>0366 401206</item>
+        <item>0359 179884</item>
+        <item>0233 211058</item>
+        <item>0348 430639 </item>
+        <item>0348 410504</item>
+        <item>0344 401012</item>
+        <item>0355 423172</item>
+        <item>0350 414881</item>
+        <item>0361 420905</item>
+        <item>0367 401164</item>
+        <item>0369 430990</item>
+        <item>0349 416499</item>
+        <item>0243 233017</item>
+        <item>0330 401674</item>
+        <item>0353 808889</item>
+        <item>0365 430179</item>
+        <item>0356 175711</item>
+        <item>0340 401079</item>
+        <item>0360 401061</item>
+        <item>031 4251230</item>
+        <item>021 599 2300</item>
+        <item>021 2750500</item>
+        <item>021 319 3051</item>
+        <item>021 319 3051</item>
+    </string-array>
+
+    <string-array name="emails">
+        <item>ctsalba@yahoo.com</item>
+        <item>ctsalexandria@yahoo.com</item>
+        <item>ctsarad@yahoo.com</item>
+        <item>ctsbacau@yahoo.com</item>
+        <item>ctsbaiamare@yahoo.com</item>
+        <item>ctsbarlad@yahoo.com</item>
+        <item>ctsbistrita@yahoo.com</item>
+        <item>ctsbotosani@yahoo.com</item>
+        <item>ctsbrasov@yahoo.com</item>
+        <item>ctsbraila@yahoo.com</item>
+        <item>ctsbuzau@yahoo.com</item>
+        <item>ctscalarasi@yahoo.com</item>
+        <item>ctscluj@yahoo.com</item>
+        <item>ctsconstanta@yahoo.com</item>
+        <item>ctscraiova@yahoo.com</item>
+        <item>ctstargoviste@yahoo.com</item>
+        <item>ctsdeva@yahoo.com</item>
+        <item>ctspetrosani@yahoo.com</item>
+        <item>ctsdrtrseverin@yahoo.com</item>
+        <item>ctsfocsani@yahoo.com</item>
+        <item>ctsgalati@yahoo.com</item>
+        <item>ctsgiurgiu@yahoo.com</item>
+        <item>ctsiasi@yahoo.com</item>
+        <item>ctsmcciuc@yahoo.com</item>
+        <item>ctsoradea@yahoo.com</item>
+        <item>ctspiatraneamt@yahoo.com</item>
+        <item>ctspitesti@yahoo.com</item>
+        <item>ctscampulungmuscel@yahoo.com</item>
+        <item>ctsploiesti@yahoo.com</item>
+        <item>ctsresita@yahoo.com</item>
+        <item>ctsrmvalcea@yahoo.com</item>
+        <item>ctssatumare@yahoo.com</item>
+        <item>ctssfgheorghe@yahoo.com</item>
+        <item>ctssibiu@yahoo.com</item>
+        <item>ctsslatina@yahoo.com</item>
+        <item>ctsslobozia@yahoo.com</item>
+        <item>ctssuceava@yahoo.com</item>
+        <item>ctstgjiu@yahoo.com</item>
+        <item>ctstgmures@yahoo.com</item>
+        <item>ctstimisoara@yahoo.com</item>
+        <item>ctstulcea@yahoo.com</item>
+        <item>ctszalau@yahoo.com</item>
+        <item>enisierosu@gmail.com</item>
+        <item>prsfloreasca@yahoo.com</item>
+        <item>prsfundeni@yahoo.com</item>
+        <item>prsmilitar@yahoo.com</item>
+        <item>prsuniversitar@yahoo.com</item>
+    </string-array>
+
+    <string-array name="transition">
+        <item> Gestul tău poate salva până la 3 vieți!</item>
+        <item> Vrei să fii un salvator? Donează</item>
+    </string-array>
+
+    <string name="specialCases">
+        Pe această pagină găsiți cazuri ale unor persoane, care au nevoie de sânge și au fost dispuse să-și facă publică situația.
+        Puteți să vă faceți rezervare pentru aceste persoane sau să vă anunțați cunoștințele. :)
+        \n<b>Respectați grupa de sânge. Mulțumim!</b>
+    </string>
+    <string-array name="benefits">
+        <item></item>
+        <item> Doar împreună ne putem ridica</item>
+        <item> Nu ezita.\n Salvează și tu vieți. </item>
+        <item> În acest moment, cineva sigur are nevoie de ajutorul tău.</item>
+        <item> Donate your Love\n Give smiles</item>
+        <item><font color='black' layout_marginLeft='10dp'> Bucură-te și tu\n cu cei ajutați!</font></item>
+    </string-array>
+
+
+    <string name="benefits1"><b>ZI DE CONCEDIU PLĂTIT</b>\n\n
+    Pentru fiecare donare de sânge, ai dreptul la o zi suplimentară de concediu plătit!</string>
+
+    <string name="benefits2"><b>ANALIZE GRATUITE</b>\n\n
+    Beneficiezi de un set de analize gratuit: RH, grupa sangvină, Hepatita B, C, HIV, leucemie, sifilis şi probe hepatice.</string>
+
+    <string name="benefits3"><b>BONURI DE MASĂ</b>\n\n
+    Fiecare donator primeşte 7 bonuri de masă în valoare totală de 60 lei.</string>
+
+    <string name="benefits4"><b>CREŞTEREA IMUNITĂŢII</b>\n\n
+    Dupa ce donezi, corpul tău îşi reface cantitatea de sânge necesară în corp, proces care împrospătează sângele şi creşte imunitatea.</string>
+
+    <string name="benefits5"><b>SALVEZI 3 VIEŢI</b>\n\n
+    Donează și poți salva până la 3 vieți!</string>
+
+    <string name="benefits6"><b>PERIODICE</b>\n\n
+    În perioada concertelor mari (e.g. UNTOLD) se primesc bilete gratuite dacă donezi. Fii cu ochii pe evenimente și donează!</string>
+
+    <string name="video">
+        \t\tVideoclipul de mai sus este despre o fetiță, care a avut nevoie de sânge și a cărei viață a fost salvată datorită donatorilor de sânge.
+        Acesta este preluat de pe YouTube. Este în engleză tocmai pentru că nu a fost găsit unul din România și acest lucru denotă lipsa acută de donatori din țara noastră.
+        Mai jos veți găsi și alte cazuri fericite din centrele din România.\n Salvează vieți. Donează!
+    </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello home fragment</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="important">\t\t\tUE cere eliminarea de beneficii pentru donarea de sânge.
+    Donarea de sânge trebuie să fie benevolă, exclusiv din altruism, cerință deja respectată de țările occidentale. Dacă facem acest gest, nu trebuie să așteptăm ceva în schimb.
+    </string>
+
+    <string name="myBenefits">
+        <b>\tCreșterea imunității\n</b>După ce donezi, corpul tău îşi reface cantitatea de sânge necesară în corp, proces care împrospătează sângele şi creşte imunitatea.\n
+        <b>\nDonatorii de sânge pierd aproximativ 650 de calorii</b> la fiecare jumătate de litru donată.\n
+        <b>\nScăderea cantităţii de fier din organism\n</b>Un nivel crescut de fier în sânge poate accelera procesul de oxidare a colesterolului şi conduce, în final, la boli cardiovasculare.\n
+        <b>\nO rată mult mai mică de incidente cardiace pentru donatorii de sânge periodici\n</b>Un studiu făcut în Finlanda pe un grup de peste 3000 de bărbați - a demonstrat că aceștia și-au redus cu 88% șansa unui incident cardiovascular.
+    </string>
+
+    <string name="shareBody"><b><u>ForLife App\n</u></b>Noua aplicație de donare de sânge din România îți dă posibilitatea să donezi mai des! Alătură-te și tu salvatorilor de vieți.\n ForLife - Denisa ROSU </string>
+    <string name="shareMessage">Hai și tu să donezi! Avem nevoie de eroul din tine! :)</string>
+
+    <string name="deleteAccount">Ștergerea contului de utilizator va conduce implicit la pierederea tuturor informațiilor
+    din această aplicație. Nu veți mai putea accesa contul dumneavoastră după această acțiune. Toate informațiile stocate vor fi șterse din
+    baza noastră de date.</string>
+
+    <string name="question1"><b>De ce este bine să donez?</b>\n\n
+        Donarea de sânge în România este voluntară și anonimă și este o ocazie foarte bună pentru donator să afle dacă este un individ sănătos.\n Identitatea donatorului și rezultatele testelor sunt secrete. Ele nu pot fi scoase din Centrul de Transfuzii fără acordul scris al donatorului. De asemenea, în cazul unor probleme, nu se fac anchete epidemiologice fără acordul donatorului. Donatorii sunt obligați să se informeze, după ce au donat sau la 75 de zile de la donare, asupra rezultatelor analizelor. Fără acordul scris al donatorului, rezultatele analizelor nu ies din instituția în care acesta a donat sânge.\n Cadrele medicale de la centrele de donare nu au voie sa comunice rezultatele analizelor prin fax, mail sau la telefon.
+        Statistic, România este pe ultimele locuri în ce privește donarea benevolă de sânge, iar multe intervenții chirurgicale din țară sunt amânate.
+    </string>
+
+    <string name="question2"><b>Ce pași se fac înainte de donare?</b>\n\n
+        1. Este recomandabil să iei o gustare înainte de a dona;\n
+        2. Micul dejun poate fi bogat în lichide și glucide (ceai sau cafea dulce, sandwitch, pâine cu dulceață). Înainte de donare, se evită mesele copioase, cu grăsimi și băuturi alcoolice;\n
+        3. Nu ai voie să consumi alcool cu 24 de ore înainte de a dona sânge;\n
+        4. Nu ai voie să fumezi înainte și după ce ai donat sânge;\n
+        5. De asemenea, vino să donezi odihnit, nu după o noapte pierdută la serviciu, în cluburi sau la calculator.</string>
+
+    <string name="question3"><b>Ce condiții trebuie să îndeplinesc pentru a dona sânge?</b>\n\n
+    Donatorul de sânge este orice cetățean român cu domiciliul în România sau orice cetățean al UE care are reședința în România, este sănătos și se supune regulilor de prelevare a sângelui. Alte condiții, conform Centrului de Transfuzii Sanguine București, România:\n
+    – vârsta cuprinsă între 18-60 ani;\n
+    – greutate peste 50 Kg;\n
+    – puls regulat, 60 -100 bătăi/ minut;\n
+    – tensiune arterială sistolică între 100 și 180 mmHg;\n
+    – să nu fi suferit în ultimele 6 luni intervenții chirurgicale;\n
+    – femeile să nu fie: însarcinate, în perioada de lăuzie, în perioada menstruală;\n
+    – să nu fi consumat grăsimi sau băuturi alcoolice cu cel puțin 48 de ore înaintea donării;\n
+    – să nu fii sub tratament pentru diferite afecțiuni: hipertensiune, boli de inimă, boli renale, boli psihice, boli hepatice, boli endocrine;
+    </string>
+
+    <string name="question4"><b>Ce criterii de excludere permanentă există?</b>\n\n
+    – afecțiuni cardiovasculare (inclusiv hipertensiune arterială cronică în tratament, angină pectorală);\n
+    – traumatisme craniene cu sechele;\n
+    – etilism cronic; schizofrenie; epilepsie; hepatită cronică, ciroză hepatică; sifilis; pancreatită; cancer, leucemii; diabet zaharat; tuberculoză;\n
+    – hiperlipidemie; astm bronşic; alergie severă; boli endocrine; lupus eritematos diseminat și alte colagenoze; psoriazis generalizat; persoanele pensionate medical, indiferent de diagnosticul de pensionare.</string>
+
+    <string name="question5"><b>Ce criterii de excludere temporară există?</b>\n\n
+    – boli infecţioase (gripă, infecții bacteriene);\n
+    – anemie; examinare endoscopică, transfuzii, intervenții chirurgicale, tatuaje, contact apropiat cu persoane cu hepatită, HIV;\n
+    – vaccinări; sarcină, alăptare; tratamente dentare;\n
+    – consum de alcool în ultimele 24 de ore;
+    – consum de medicamente.</string>
+
+    <string name="question6"><b>Unde pot să donez sânge?</b>\n\n
+    O persoană poate să doneze în orice Centru Județean de Transfuzii din fiecare județ.</string>
+
+    <string name="question7"><b>Cât de des pot să donez sânge?</b>\n\n
+    Intervalul minim între donari este de 8 săptămâni, dar numărul de donări nu trebuie să depășească 3 donări/an la femei și 4-5 donări/an la bărbați.</string>
+
+    <string name="question8"><b>Câte vieți pot salva dacă donez sânge?</b>\n\n
+    Dacă sângele tău este sănătos, poți să salvezi chiar și trei vieți, pentru că în laboratoare, specialiștii pot să separe următoarele:\n
+    – celule roșii (se folosesc mai ales la intervenții chirurgicale și sunt ‘bune’ până la 35 de zile de la recoltare);\n
+    – trombocite (sunt `bune’ până la 5 zile de la recoltare și pot ajuta la tratamentul bolnavilor de cancer și leucemie);\n
+    – plasmă (congelată, poate fi folosită până la 12 luni și este cel mai des utilizată în accidente și traume, arsuri);</string>
+
+    <string name="question9"><b>Ce riscuri există în timpul procesului de donare?</b>\n\n
+        Pentru donator, nu există niciun risc. În laboratoare și în centrele de transfuzii, în procesul de recoltare, se utilizează doar ustensile și obiecte sanitare cu unică folosință.\n Pentru primitor, riscurile sunt înlăturate pentru că fiecare cantitate de sânge recoltată este testată din toate punctele de vedere, iar dacă nu este conform, sângele este incinerat.</string>
+
+    <string name="question10"><b>Ce se întâmplă cu sângele donat?</b>\n\n
+    După ce sângele este prelevat, acesta este depozitat în depozitul frigorific de ‘carantinare’ și apoi testat pentru a vedea dacă este sănătos.\n Testele obligatorii sunt Ag-Ab, HIV 1, 2, anti HTLV 1, 2, hemoleucograma, grupajul sanguin, Rh-ul, anticorpii iregulari, testul anti HCV, testul AgHBs, testarea pentru lues, ALT. Dacă testele arată că sângele tău este sănătos, acesta și produsele derivate sunt validate și apoi distribuite spitalelor. Dacă rezultatele ridică probleme, testele sunt repetate. Dacă rezultatele indică boli, analizele sunt puse la dispoziția donatorului, iar sângele donat este incinerat.\n Analizele pot fi repetate la 75 sau 120 de zile. Donatorul cu analize neconforme este înștiințat că nu poate dona sânge.</string>
+
+    <string name="question11"><b>Cât sânge se colectează?</b>\n\n
+    La fiecare donare de sânge se colectează o unitate – o unitate de sânge înseamnă 450ml de sange, aproximativ 10% din volumul total al corpului.</string>
+
+    <string name="question12"><b>Dacă nu știu ce grupă de sânge am?</b>\n\n
+    O să afli chiar în ziua donării ce grupa de sânge ai. Acum te putem asigura doar că indiferent de ce grupă ai tu, în cel puţin unul dintre spitalele din Bucureşti, un pacient care are nevoie de sânge e compatibil.</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Rezervări</string>
+    <string name="menu_slideshow">Profil</string>
+    <string name="menu_tools">Setări</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="title_activity_tab">TabActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="large_text">
+        Cum se doneaza?
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+</resources>

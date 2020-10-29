@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".NotificationBookingActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:layout_marginTop="@dimen/fab_margin"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/fab_margin"
+            android:text="Informațiile rezervării"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="@dimen/fab_margin"
+            android:textColor="@color/colorAccent"
+            android:fontFamily="@font/alegreya_sc"
+            android:layout_gravity="center_horizontal">
+        </TextView>
+
+        <TextView
+            android:id="@+id/txtCentreName"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:drawablePadding="10dp"
+            android:editable="false"
+            android:hint="Centru"
+            android:inputType="none"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="@dimen/fab_margin"
+            android:background="@color/pale" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="155dp"
+                android:outlineSpotShadowColor="@color/dark"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="4dp"
+                app:cardBackgroundColor="@color/wave7"
+                app:cardUseCompatPadding="true"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Data"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="19sp"
+                        android:layout_marginBottom="@dimen/fab_margin"
+                        android:textStyle="bold">
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/txtBookingTime"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="@color/dark"
+                        android:textSize="15sp"
+                        android:textStyle="bold">
+                    </TextView>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="155dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="4dp"
+                app:cardBackgroundColor="@color/wave7"
+                app:cardUseCompatPadding="true"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Ora"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="19sp"
+                        android:layout_marginBottom="@dimen/fab_margin"
+                        android:textStyle="bold">
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/time_centru"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="@color/dark"
+                        android:textSize="15sp"
+                        android:textStyle="bold">
+                    </TextView>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Mulțumim pentru rezervare!"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:fontFamily="@font/alegreya_sc"
+            android:layout_gravity="center_horizontal">
+        </TextView>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/green">
+        </View>
+
+        <Button
+            android:id="@+id/btn_confirmBooking"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:text="Confirmare"
+            android:layout_gravity="center"
+            android:background="@drawable/button_green_off"
+            android:textColor="@color/green"
+            android:textSize="18sp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:text="Renunță"
+            android:layout_gravity="center"
+            android:background="@drawable/border_button_off"
+            android:textColor="@color/colorAccent"
+            android:textSize="18sp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp">
+
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>
