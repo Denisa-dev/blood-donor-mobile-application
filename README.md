@@ -5,10 +5,9 @@ The mobile application is dedicated to people able to donate blood. However, if 
 
 <figure>
   <img src="Screenshots/intro.jpg" width="270" height="500" alt="Intro Activity of the application">
-  <figcaption>Fig.1 - Intro Activity.</figcaption>
+  <figcaption><strong>Fig.1 - Intro Activity.<strong></figcaption>
 </figure>
 
-The application was developed using the IDE Android Studio and Java programming language. 
-
-<p>For more details or for a video demonstration, you can write me.</p>
+The application was developed using the Android Studio IDE and Java programming language. 
+For more details or for a video demonstration, you can write me.
 
