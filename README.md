@@ -10,4 +10,4 @@ The mobile application is dedicated to people able to donate blood. However, if 
 
 The application was developed using the Android Studio IDE and Java SE 8 programming language. 
 For more details or for a video demonstration, you can write me.
-
+Also, you can find more screenshots in the Screenshots folder.
